@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARHUB 2.O</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <img src="assets/images/carhub-logo.jpg" alt="CAR HUB 2.O" class="logo-img">
+                    <span class="logo-brand-text">CAR HUB <span class="logo-badge">2.O</span></span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#models">Models</a></li>
+                    <li><a href="#shopping-tools">Shop</a></li>
+                    <li><a href="#finance">Finance</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        
+        <div class="banner-message">
+            <p>CAR HUB<br>HYDERABAD - JUBILEE HILLS<br>TELANGANA'S PREMIER DEALERSHIP</p>
+            <a href="#find-us" class="banner-btn">KNOW MORE</a>
+        </div>
+    </header>
+
+    <!-- Action Buttons -->
+    <div class="action-bar">
+        <button class="btn-book">Book</button>
+        <button class="btn-call">Call us now</button>
+        <button class="btn-testdrive">Book Test Drive</button>
+        <a href="#find-us" class="btn-locate">Locate us</a>
+    </div>
+
+    <!-- Hero Section - Hero Carousel -->
+    <section class="hero-section">
+        <div class="carousel">
+            <div class="carousel-item active" style="background-image: url('assets/images/LAND CRUSIER INTERIOR.jpg');">
+                <div class="carousel-contentl">
+                    <h1>THE ALL-NEW LAND CRUISER</h1>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/images/SUPRA MK5.png');">
+                <div class="carousel-content">
+                    <h1>THE MK5,<br>WHERE LUXARY MEETS SPEED</h1>
+                </div>
+            </div>
+            <button class="carousel-prev" id="carouselPrev">❮</button>
+            <button class="carousel-next" id="carouselNext">❯</button>
+        </div>
+    </section>
+
+    <!-- Models Section -->
+    <section id="models" class="models-section">
+        <h2 class="section-title">Our Models</h2>
+        
+        <!-- THE NEW TOYOTA SUPRA MK5 -->
+        <div class="model-card">
+            <div class="model-info">
+                <h3>THE TOYOTA SUPRA MK5</h3>
+                <ul class="features">
+                    <li>EMI STARTING AT ₹75,555*</li>
+                    <li>GST BENEFIT PRICING AT ₹93.60* LAKH</li>
+                    <li>EXCLUSIVE ROI AT 6.49%*</li>
+                    <li>2022 Toyota Supra A91-CF Edition Brings Carbon Fiber To Select Few</li>
+                    <li>ADDITIONAL BENEFITS WORTH ₹2 LAKH*</li>
+                </ul>
+                <button class="btn-book-experience">BOOK AN EXPERIENCE</button>
+            </div>
+            <div class="model-image">
+                <img src="assets/images/MK5.jpg" alt="THE TOYOTA SUPRA MK5">
+            </div>
+        </div>
+
+        <!-- THE TOYOTA LAND CRUISER -->
+        <div class="model-card">
+            <div class="model-image">
+                <img src="assets/images/LAND CRUSIER.jpg" alt="The Toyota Land Cruiser">
+            </div>
+            <div class="model-info">
+                <h3>THE TOYOTA LAND CRUISER</h3>
+                <ul class="features">
+                    <li>EMI STARTING AT ₹10 LAKH*</li>
+                    <li>GST BENEFIT PRICING AT ₹50.45* CRORE</li>
+                    <li>EXCLUSIVE ROI AT 6.49%*</li>
+                    <li>2025 Toyota Land Cruiser Revealed With New Platform, Twin-Turbo V6</li>
+                    <li>ADDITIONAL BENEFITS WORTH ₹1.5 LAKH*</li>
+                </ul>
+                <button class="btn-book-experience">BOOK AN EXPERIENCE</button>
+            </div>
+        </div>
+
+        <!-- THE BMW 5 SERIES LONG WHEELBASE -->
+        <div class="model-card">
+            <div class="model-info">
+                <h3>THE BMW 5 SERIES LONG WHEELBASE</h3>
+                <ul class="features">
+                    <li>EMI STARTING AT ₹55,555*</li>
+                    <li>GST BENEFIT PRICING AT ₹73.35* LAKH</li>
+                    <li>EXCLUSIVE ROI AT 6.49%*</li>
+                    <li>FLEXIBLE DOWN PAYMENT & ASSURED BUYBACK WITH BMW SMART FINANCE PLAN</li>
+                    <li>ADDITIONAL BENEFITS WORTH ₹1.5 LAKH*</li>
+                </ul>
+                <button class="btn-book-experience">BOOK AN EXPERIENCE</button>
+            </div>
+            <div class="model-image">
+                <img src="assets/images/m5.jpg" alt="The BMW 5 Series Long Wheelbase">
+            </div>
+        </div>
+
+        <!-- THE DODGE CHALLENGER CLASSIC -->
+        <div class="model-card">
+            <div class="model-image">
+                <img src="assets/images/DODGE CLASSIC.png" alt="THE DODGE CHALLENGER CLASSIC">
+            </div>
+            <div class="model-info">
+                <h3>THE DODGE CHALLENGER CLASSIC</h3>
+                <ul class="features">
+                    <li>EMI STARTING AT ₹38,422*</li>
+                    <li>GST BENEFIT PRICING AT ₹50.60* LAKH</li>
+                    <li>With a Supercharged 6.2L High-Output HEMI® V8 offering up to 797 horsepower, the Dodge Challenger SRT was born to leave bystanders wondering</li>
+                </ul>
+                <button class="btn-book-experience">BOOK AN EXPERIENCE</button>
+            </div>
+        </div>
+
+        <!-- THE TOYOTA LEGENDER -->
+        <div class="model-card">
+            <div class="model-info">
+                <h3>THE ALL-NEW LEGENDER</h3>
+                <ul class="features">
+                    <li>EMI STARTING AT ₹59,999*</li>
+                    <li>GST BENEFIT PRICING AT ₹71.20* LAKH</li>
+                    <li>EXCLUSIVE ROI AT 6.49%*</li>
+                    <li>The new Legender houses a refined 6-speed Diesel AT engine. The power on tap complements the cutting-edge design of the Legender seamlessly.</li>
+                    <li>ADDITIONAL BENEFITS WORTH ₹2 LAKH*</li>
+                </ul>
+                <button class="btn-book-experience">BOOK AN EXPERIENCE</button>
+            </div>
+            <div class="model-image">
+                <img src="assets/images/FORTUNER.png" alt="THE ALL-NEW LEGENDER">
+            </div>
+        </div>
+
+        <!-- THE Bugagti Chiron -->
+        <div class="model-card">
+            <div class="model-image">
+                <img src="assets/images/Buggati.png" alt="THE Bugagti Chiron">
+            </div>
+            <div class="model-info">
+                <h3>THE BUGAGTI CHIRON<br>LUXURY, A LEVEL ABOVE</h3>
+                <ul class="features">
+                    <li>EMI STARTING AT ₹1 LAKH*</li>
+                    <li>GST BENEFIT PRICING AT ₹7* CRORE</li>
+                    <li>EXCLUSIVE ROI AT 6.49%*</li>
+                    <li>The Bugatti Chiron is a mid-engine, two-seater sports car produced by Bugatti Automobiles S.A.S.</li>
+                    <li>ADDITIONAL BENEFITS WORTH ₹2 LAKH*</li>
+                </ul>
+                <button class="btn-book-experience">BOOK AN EXPERIENCE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Test Drive Form -->
+    <section id="testdrive" class="testdrive-section">
+        <h2>BOOK A TEST DRIVE</h2>
+        <p class="section-subtitle">Please fill the details below to book your NEW CAR🚗.</p>
+
+        <!-- Email Notification Status Banner -->
+        <div class="email-config-banner" id="emailConfigBanner">
+            <div class="config-banner-left">
+                <span class="status-indicator status-warning" id="emailStatusDot"></span>
+                <span class="status-text" id="emailStatusText">Email Notifications: <strong>Not Configured</strong></span>
+            </div>
+            <div class="config-banner-actions">
+                <button type="button" class="btn-email-setup" id="openEmailSetupBtn">⚙️ Configure EmailJS</button>
+                <a href="EMAIL_SETUP_GUIDE.md" target="_blank" class="btn-email-guide">📖 Setup Guide</a>
+            </div>
+        </div>
+        
+        <div class="testdrive-container">
+            <form class="testdrive-form">
+                <div class="form-row">
+                    <select name="model" class="form-control">
+                        <option>Select Model</option>
+                        <option>THE NEW LAND CRUISER</option>
+                        <option>THE TOYOTA LEGENDER</option>
+                        <option>THE BMW 5 SERIES LONG WHEELBASE</option>
+                        <option>THE DODGE CHALLENGER CLASSIC</option>
+                        <option>THE ALL-NEW LEGENDER</option>
+                        <option>THE BMW X7</option>
+                        <option>THE BUGAGTI CHIRON</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <select name="branch" class="form-control">
+                        <option>Select Branch</option>
+                        <option>HYDERABAD - JUBILEE HILLS</option>
+                        <option>HYDERABAD - GACHIBOWLI</option>
+                        <option>HYDERABAD - BANJARA HILLS</option>
+                        <option>HYDERABAD - HITEC CITY</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <select name="salutation" class="form-control">
+                        <option>Salutation</option>
+                        <option>Mr.</option>
+                        <option>Mrs.</option>
+                        <option>Ms.</option>
+                        <option>Dr.</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <input type="text" name="first-name" placeholder="First Name" class="form-control" required>
+                    <input type="text" name="last-name" placeholder="Last Name" class="form-control" required>
+                </div>
+
+                <div class="form-row">
+                    <input type="email" name="email" placeholder="Email address" class="form-control" required>
+                </div>
+
+                <div class="form-row">
+                    <input type="tel" name="mobile" placeholder="Mobile Number" class="form-control" required>
+                </div>
+
+                <div class="form-row checkbox">
+                    <input type="checkbox" name="finance-interest" id="finance-interest">
+                    <label for="finance-interest">Interested in CAR HUB Financial Services' plans and offers. I accept the <a href="#">Terms & Conditions.</a></label>
+                </div>
+
+                <button type="submit" class="btn-submit">BOOK A TEST DRIVE</button>
+            </form>
+
+            <div class="testdrive-image">
+                <img src="assets/images/SUPRA MK5.png" alt="THE SUPRA">
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Tools Section -->
+    <section id="shopping-tools" class="shopping-tools">
+        <h2>SHOPPING TOOLS</h2>
+        
+        <div class="tools-grid">
+            <a href="#" class="tool-card">
+                <h3>Shop Online</h3>
+                <p>Shop Online</p>
+            </a>
+            <a href="#" class="tool-card">
+                <h3>Retail Offers</h3>
+                <p>Retail Offers</p>
+            </a>
+            <a href="#" class="tool-card">
+                <h3>Book Test Drive</h3>
+                <p>Book Test Drive</p>
+            </a>
+            <a href="#" class="tool-card">
+                <h3>Finance Plan</h3>
+                <p>Finance Plan</p>
+            </a>
+            <a href="#" class="tool-card">
+                <h3>Pre-Owned BMW</h3>
+                <p>Pre-Owned BMW</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Info Sections -->
+    <section class="info-sections">
+        <div class="info-card">
+            <h4>FINANCE</h4>
+            <p>In the world of BMW, world-class isn't limited to the vehicles that we engineer.</p>
+            <a href="#">Know More</a>
+        </div>
+        <div class="info-card">
+            <h4>DISCLAIMER</h4>
+            <p>*Terms and conditions (T&Cs) apply. All offers are from BMW dealerships.</p>
+            <a href="#">Know More</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <span id="find-us"></span>
+        <h2>CONTACT US</h2>
+        
+        <div class="locations-grid">
+            <!-- HYDERABAD - JUBILEE HILLS -->
+            <div class="location-card">
+                <h4>HYDERABAD - JUBILEE HILLS</h4>
+                <p><strong>Flagship Experience & Sales</strong><br>
+                Plot No. 492, Road No. 36,<br>
+                Near Peddamma Temple Metro Station,<br>
+                Jubilee Hills, Hyderabad, Telangana,<br>
+                India - 500033.
+                </p>
+                <p>Telephone: <a href="tel:+914048529160">+91 40 4852 9160</a><br>
+                Phone No.: <a href="tel:+919849163482">+91 98491 63482</a><br>
+                Business Desk: <a href="tel:+919989374120">+91 99893 74120</a><br>
+                Email: <a href="mailto:srujan.jubileehills@gmail.com">srujan.jubileehills@gmail.com</a>
+                </p>
+            </div>
+
+            <!-- HYDERABAD - GACHIBOWLI -->
+            <div class="location-card">
+                <h4>HYDERABAD - GACHIBOWLI</h4>
+                <p><strong>Service & High-Tech Diagnostics</strong><br>
+                Survey No. 64, Financial District Road,<br>
+                Near ISB & WaveRock, Nanakramguda,<br>
+                Gachibowli, Hyderabad, Telangana,<br>
+                India - 500032.
+                </p>
+                <p>Telephone: <a href="tel:+914069247350">+91 40 6924 7350</a><br>
+                Phone No.: <a href="tel:+919701582419">+91 97015 82419</a><br>
+                Business Desk: <a href="tel:+919030246831">+91 90302 46831</a><br>
+                Email: <a href="mailto:srujan.gachibowli@gmail.com">srujan.gachibowli@gmail.com</a>
+                </p>
+            </div>
+
+            <!-- HYDERABAD - BANJARA HILLS -->
+            <div class="location-card">
+                <h4>HYDERABAD - BANJARA HILLS</h4>
+                <p><strong>Certified Pre-Owned & Bespoke</strong><br>
+                8-2-293/82/A, Road No. 12,<br>
+                Opposite MLA Colony, Banjara Hills,<br>
+                Hyderabad, Telangana,<br>
+                India - 500034.
+                </p>
+                <p>Telephone: <a href="tel:+914023398470">+91 40 2339 8470</a><br>
+                Phone No.: <a href="tel:+919866419573">+91 98664 19573</a><br>
+                Business Desk: <a href="tel:+917995863214">+91 79958 63214</a><br>
+                Email: <a href="mailto:srujan.banjarahills@gmail.com">srujan.banjarahills@gmail.com</a>
+                </p>
+            </div>
+
+            <!-- HYDERABAD - HITEC CITY -->
+            <div class="location-card">
+                <h4>HYDERABAD - HITEC CITY</h4>
+                <p><strong>Performance Lounge & Quick Service</strong><br>
+                Plot No. 12, Inorbit Mall Road,<br>
+                Mindspace Tech Park, Madhapur,<br>
+                Hyderabad, Telangana,<br>
+                India - 500081.
+                </p>
+                <p>Telephone: <a href="tel:+914066883590">+91 40 6688 3590</a><br>
+                Phone No.: <a href="tel:+919121748395">+91 91217 48395</a><br>
+                Business Desk: <a href="tel:+919553081726">+91 95530 81726</a><br>
+                Email: <a href="mailto:srujan.hiteccity@gmail.com">srujan.hiteccity@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h5>QUICK LINKS</h5>
+                <ul>
+                    <li><a href="#testdrive">Book A Test Drive</a></li>
+                    <li><a href="#">Retail Offers</a></li>
+                    <li><a href="#">Pre-Owned Cars</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h5>ABOUT</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Locate Us</a></li>
+                    <li><a href="#">The Team</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h5>FOLLOW US</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/share/1CEhU2MBDA/">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/carhub/">Instagram</a></li>
+                    <li><a href="">Youtube</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; CAR HUB Pvt.Ltd
+                <br>-Project by L.Sai Srujan
+            </p>
+            <ul>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Legal Disclaimer / Imprint</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- EmailJS Setup Modal -->
+    <div class="modal-overlay" id="emailSetupModal" style="display: none;">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3>⚙️ Email Notification Setup (EmailJS)</h3>
+                <button type="button" class="modal-close" id="closeEmailModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-desc">Configure your free <a href="https://www.emailjs.com/" target="_blank">EmailJS.com</a> account credentials to send booking notifications to the dealership and confirmation emails to customers. See <a href="EMAIL_SETUP_GUIDE.md" target="_blank">EMAIL_SETUP_GUIDE.md</a> for step-by-step instructions.</p>
+                
+                <div class="validation-notice-box">
+                    <strong>⚠️ Important Field Distinction Rules:</strong>
+                    <ul>
+                        <li><strong>Service ID ≠ Owner Template ID:</strong> Service ID connects your Gmail (e.g. <code>service_...</code>), while Template ID is the email layout.</li>
+                        <li><strong>Customer Template ID ≠ Dealership Email:</strong> Customer Template ID must be an EmailJS Template ID (e.g. <code>template_...</code>), NOT an email address!</li>
+                        <li><strong>Owner Template ID ≠ Customer Template ID:</strong> These must be two separate templates in EmailJS.</li>
+                    </ul>
+                </div>
+
+                <form id="emailConfigForm">
+                    <div class="modal-form-group">
+                        <label for="cfgEmailjsUser">
+                            <span>Public Key (User ID) <span class="required">*</span></span>
+                            <span class="field-badge badge-key">API Key</span>
+                        </label>
+                        <input type="text" id="cfgEmailjsUser" class="modal-input" placeholder="e.g. user_xxxxxxxxxxxx or pub_xxxx">
+                        <small>Found in EmailJS &rarr; Account &rarr; API Keys &rarr; Public Key</small>
+                    </div>
+
+                    <div class="modal-form-group">
+                        <label for="cfgEmailjsService">
+                            <span>Service ID <span class="required">*</span></span>
+                            <span class="field-badge badge-service">Service</span>
+                        </label>
+                        <input type="text" id="cfgEmailjsService" class="modal-input" placeholder="e.g. service_carhub">
+                        <small>From <strong>Email Services</strong> tab (connects to Gmail). Must NOT match Template IDs.</small>
+                    </div>
+
+                    <div class="modal-form-group">
+                        <label for="cfgEmailjsOwnerTemplate">
+                            <span>Owner Alert Template ID <span class="required">*</span></span>
+                            <span class="field-badge badge-template">Template 1</span>
+                        </label>
+                        <input type="text" id="cfgEmailjsOwnerTemplate" class="modal-input" placeholder="e.g. template_owner_alert">
+                        <small>Template that sends lead details to dealership. Must be different from Service ID & Customer Template.</small>
+                    </div>
+
+                    <div class="modal-form-group">
+                        <label for="cfgEmailjsCustomerTemplate">
+                            <span>Customer Confirmation Template ID <span class="required">*</span></span>
+                            <span class="field-badge badge-template">Template 2</span>
+                        </label>
+                        <input type="text" id="cfgEmailjsCustomerTemplate" class="modal-input" placeholder="e.g. template_customer_conf">
+                        <small>Template that sends thank-you email to customer. Must be a Template ID, NOT an email address!</small>
+                    </div>
+
+                    <div class="modal-form-group">
+                        <label for="cfgOwnerEmail">
+                            <span>Dealership Notification Email</span>
+                            <span class="field-badge badge-email">Destination Email</span>
+                        </label>
+                        <input type="email" id="cfgOwnerEmail" class="modal-input" value="srujanlingalwar3@gmail.com" placeholder="srujanlingalwar3@gmail.com">
+                        <small>Actual email inbox receiving leads. Must be a valid email (e.g. srujanlingalwar3@gmail.com), NOT a template ID.</small>
+                    </div>
+
+                    <div id="emailTestFeedback" class="test-feedback" style="display: none;"></div>
+
+                    <div class="modal-actions">
+                        <button type="submit" class="btn-save-cfg">Save & Activate</button>
+                        <button type="button" class="btn-test-cfg" id="testEmailCfgBtn">Send Test Email</button>
+                        <button type="button" class="btn-clear-cfg" id="clearEmailCfgBtn">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            // Base configuration (can also be saved via the in-browser Setup modal into localStorage)
+            document.body.dataset.emailjsUser = 'YOUR_EMAILJS_USER_ID';
+            document.body.dataset.emailjsService = 'YOUR_SERVICE_ID';
+            document.body.dataset.emailjsOwnerTemplate = 'YOUR_OWNER_TEMPLATE_ID';
+            document.body.dataset.emailjsCustomerTemplate = 'YOUR_CUSTOMER_TEMPLATE_ID';
+            document.body.dataset.ownerEmail = 'srujanlingalwar3@gmail.com';
+        })();
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
